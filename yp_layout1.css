@@ -1,0 +1,163 @@
+@charset "utf-8"; 
+/* 
+ Yellow Pizza Website Project
+    CIS 181 WW1
+    Author: Mohammed
+    Date: 3/14/21
+    Filename: yp_layout1.css
+   
+    This file contains layout styles that is used in the Yellow Pizza website
+    */
+
+/* HTML and Body Styles */
+
+   body {
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 960px;
+      min-width: 640px;
+      width: 95%;
+      color: yellow;
+   }
+   html {
+      background-color: hsl(60, 40%, 33%);
+      font-family:'Caveat', cursive;
+      font-size:1.4em;
+      height: 100%
+   }
+   
+   body {
+      background-color: hsl(0, 69%, 48%);  
+      text-align: center;
+   }
+   
+
+/* Horizontal Navigation Styles */
+body > header > nav.horizontalNavigation li {
+	width: 20%;
+}
+header img {
+	width: 50%;
+}
+
+ul {
+list-style: none;
+}
+
+ul li {
+   display: block;
+	float: left;
+	margin-left:2px;
+	border:5px ridge hsl(60, 40%, 33%);
+   background-color: hsl(55, 100%, 78%); 
+}
+
+ul li a {
+   display: block;
+	text-align: center; 
+   text-decoration: none;
+   color: hsl(82, 39%, 30%); 
+}
+
+ul li a:hover {
+   color: hsl(54, 100%, 50%);
+}
+
+/* Main Image Styles */
+.center {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 100%;
+ }
+
+/* Text Styles */
+.home {
+   padding: 50px;
+   text-align:center;
+   width: auto;
+   font-size: 70px;
+   text-shadow: 5px 5px black;
+   color:hsl(55, 100%, 78%)
+}
+.about {
+   padding: 100px;
+   text-align:center;
+   width: auto;
+   font-size: 40px;
+   text-shadow: 5px 5px black;
+   color:hsl(55, 100%, 78%)
+}
+.menu {
+   padding: 50px;
+   text-align:center;
+   width: auto;
+   font-size: 40px;
+   text-shadow: 5px 5px black;
+   color:hsl(55, 100%, 78%)
+}
+.classic {
+   padding: 20px;
+   text-align: left;
+   width: auto;
+   font-size: 40px;
+   color:hsl(55, 100%, 78%)
+}
+
+/* Image Styles and Flex Box Styles 1*/
+.row {
+   display: flex;
+   flex-wrap: wrap;
+   padding: 0 4px;
+ }
+ 
+ .column {
+   flex: 50%;
+   padding: 0 4px;
+   color: yellow;
+ }
+ 
+ .column img {
+   margin-top: 8px;
+   vertical-align:middle;
+   border: ridge 5px green;
+ }
+
+ .row {
+   display: flex;
+ }
+ 
+ .column {
+   flex: 35%;
+   padding: 10px;
+ }
+ /* Contact Us styles */
+ .service {
+   display: block;
+   margin-left: auto;
+   margin-right: 30px;
+   margin-top: 30px;
+   width: 30%;
+   padding: 20px;
+   position: relative;
+   bottom: 100px;
+ }
+ .contactus {
+   padding: 100px;
+   text-align:center;
+   width: auto;
+   font-size: 40px;
+   text-shadow: 5px 5px black;
+   color:hsl(55, 100%, 78%)
+ }
+
+
+
+ /* Footer Styles */ 
+footer {
+	background-color: darkgreen; 
+	clear: left;
+   color: yellow;
+   text-align: center;
+}
+
